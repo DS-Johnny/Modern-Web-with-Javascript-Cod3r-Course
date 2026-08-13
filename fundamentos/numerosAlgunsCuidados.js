@@ -6,9 +6,12 @@ console.log(typeof inf);
 
 console.log(typeof Infinity);
 
-// é possível calcular string com números
-console.log("10" / 2);
-console.log("Show" * 2);
+// calcular string com números
+console.log("10" / 2); // resultado: 5
+console.log("Show" * 2); // resultado: NaN
+console.log("3" + 2); // resultado: 32 (CONCATENA)
+console.log("3" - 2); // resultado: 1
+
 console.log(0.1 + 0.7); // imprecisão de float, especificação IEEE, é normal
 
 // o atributo .toString() só funciona com objetos e não com literais
